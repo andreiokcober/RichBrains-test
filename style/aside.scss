@@ -1,0 +1,68 @@
+@import './variables.scss';
+.aside{
+    max-width: 286px;
+    margin-right: 15px;
+    padding: 30px 15px;
+    background-color:$color-white;
+        &-header{
+            display: flex;
+            padding-bottom: 20px;
+        }
+        img{
+            margin-right: 12px;
+        }
+        &-menu{
+            border-top: 2px solid $border-grey;
+            border-bottom: 2px solid $border-grey;
+            padding-top: 20px;
+        }
+        &-menu-item{
+            margin-bottom: 25px;
+        }
+        &-menu-item-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 7px;
+            cursor: pointer;
+                &:hover{
+                    background-color:$color-grey-hover;
+                }
+                h2{
+                 max-width: 222px;
+                }
+                &-ul{
+                    list-style: none;
+                    display: flex;
+                    flex-wrap: wrap;
+                        & li{
+                           margin-top: 15px;
+                                & a{
+                                    padding: 5px;
+                                }
+                        }
+                        
+                }
+        }
+        &-all-programs{
+            margin-top: 20px;
+                &-container{
+                    border:1px solid $border-grey;
+                    cursor: pointer;
+                        &:hover{
+                            background-color:$color-green-main;
+
+                        }
+                        &:hover a{
+                            color:$color-white;
+                        }
+                }
+                a{
+                    color:$color-green-main;
+                    padding: 15px;
+                    text-align: center;
+                    display: block;
+                }
+            
+        }
+}
