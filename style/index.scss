@@ -3,31 +3,38 @@
 @import './aside.scss';
 @import './main-cards.scss';
 @import './button.scss';
-*{
+@import './footer.scss';
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Helvetica;
     transition: all 0.3s;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.wrapper{
+
+.wrapper {
     max-width: 1440px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 60px 125px;
-    background-color: $color-grey-light;  
+    background-color: $color-grey-light;
 }
-.hide{
+
+.hide {
     display: none;
 }
-.show{
+
+.show {
     display: block;
 }
-.main-conteiner{
+
+.main-conteiner {
     display: flex;
 }
-.main{
+
+.main {
     max-width: 892px;
 }

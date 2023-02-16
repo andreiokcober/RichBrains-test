@@ -189,7 +189,8 @@
 }
 
 .aside {
-  max-width: 286px;
+  margin-top: 20px;
+  width: 286px;
   margin-right: 15px;
   padding: 30px 15px;
   background-color: #ffffff;
@@ -260,6 +261,7 @@
   -webkit-column-gap: 20px;
      -moz-column-gap: 20px;
           column-gap: 20px;
+  max-width: 892px;
 }
 
 .card {
@@ -477,6 +479,36 @@
 .button-plus-span {
   font-size: 28px;
   color: #259609;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+.footer-link {
+  width: 182px;
+}
+.footer-link-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.footer-link-more:hover .footer-link-hover {
+  color: #259609;
+}
+.footer-img {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 
 * {

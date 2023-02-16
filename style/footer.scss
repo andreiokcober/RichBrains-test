@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    &-link{
+        width: 182px;
+        &-more{
+            display: flex;
+            justify-content: space-around;
+        }
+        &-more:hover .footer-link-hover{
+            color:$color-green-main;
+        }
+    }
+    &-img{
+        align-self: flex-start;
+    }
+}
