@@ -8,9 +8,6 @@
             display: flex;
             padding-bottom: 20px;
         }
-        img{
-            margin-right: 12px;
-        }
         &-menu{
             border-top: 2px solid $border-grey;
             border-bottom: 2px solid $border-grey;
@@ -36,33 +33,19 @@
                     display: flex;
                     flex-wrap: wrap;
                         & li{
-                           margin-top: 15px;
+                           width:100%;
+                           padding: 15px;
+                           cursor: pointer;
                                 & a{
                                     padding: 5px;
                                 }
-                        }
-                        
+                                &:hover{
+                                    background-color:$color-grey-hover;
+                                }
+                        }       
                 }
         }
         &-all-programs{
             margin-top: 20px;
-                &-container{
-                    border:1px solid $border-grey;
-                    cursor: pointer;
-                        &:hover{
-                            background-color:$color-green-main;
-
-                        }
-                        &:hover a{
-                            color:$color-white;
-                        }
-                }
-                a{
-                    color:$color-green-main;
-                    padding: 15px;
-                    text-align: center;
-                    display: block;
-                }
-            
         }
 }

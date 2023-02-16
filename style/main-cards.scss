@@ -1,0 +1,79 @@
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.card{
+    width: 282px;
+    padding: 30px;
+    border-radius: 2px;
+        &-white{
+            display: flex;
+            flex-direction: column;
+            background-color:$color-white;
+            border-top: 4px solid $color-green-main; 
+            cursor: pointer;
+                &-header{
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-bottom: 30px;
+                    justify-content: right;
+                } 
+                &-header-vector{
+                    position: relative;
+                    width: 33.18px;
+                    height: 33.28px;
+                        &-text{
+                            margin-left: 10px;
+                        }
+                }
+                &-description{
+                    margin-top: 60px;
+                    margin-bottom: 30px;
+                        &-education{
+                            display: flex;
+                        }
+                        &-date{
+                            display: flex;
+                        }
+                }
+                       
+        }
+}
+.card-green{
+    cursor: pointer;
+    color: $color-white;
+    background-color:$color-green-main;
+        &-header{
+            display: flex;
+            justify-content: space-between;
+                &-title{
+                    max-width: 172px;
+                    margin-top: 10px;
+                }
+                &-plus{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 32px;
+                    height: 32px;
+                    background-color:$color-grey-dark;
+                    border-radius:100%;
+                    cursor: pointer;
+                }
+        }
+        &-duration{
+            margin-top: 20px;
+        }
+        &-dates{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        &-price{
+            margin-bottom: 10px;
+        }
+        
+
+}
+

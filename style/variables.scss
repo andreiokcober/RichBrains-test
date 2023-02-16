@@ -1,3 +1,4 @@
+$color-grey-dark:#F7F7F7;
 $color-grey-light:#F7F7F7;
 $color-green-main:#259609;
 $color-black-main:#3E3E3E;
@@ -22,4 +23,40 @@ $color-grey-hover:#f2f2f2;
     font-size: 14px;
     line-height: 22px;
     font-weight: 400;
+    color:$color-black-light;
+}
+.title-4-white{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: $color-white;
+}
+.title-5{
+    line-height: 30px;
+    font-size: 20px;
+    color: $color-black-light;
+    width: 222px;
+    margin-top: 10px;
+}
+.title-6{
+    font-size: 32px;
+}
+.title-green{
+    color:$color-white;
+}
+.vector-green {
+    position: absolute;
+}
+
+.vector-yellow {
+    position: absolute;
+}
+
+.vector-blue {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.vector-rigth{
+    margin-right: 12px;
 }

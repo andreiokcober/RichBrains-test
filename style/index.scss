@@ -1,6 +1,8 @@
 @import './variables.scss';
 @import './header.scss';
 @import './aside.scss';
+@import './main-cards.scss';
+@import './button.scss';
 *{
     padding: 0;
     margin: 0;
@@ -16,4 +18,16 @@ a{
     margin:0 auto;
     padding: 60px 125px;
     background-color: $color-grey-light;  
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.main-conteiner{
+    display: flex;
+}
+.main{
+    max-width: 892px;
 }

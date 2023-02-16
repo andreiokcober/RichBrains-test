@@ -1,0 +1,50 @@
+@import './variables.scss';
+.button {
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ECECEC;
+    display: block;
+    border-radius: 2px;
+}
+
+.button-aside-info {
+    color: #259609;
+}
+
+.button-aside-info:hover {
+    background-color: $color-green-main;
+    color: $color-white;
+}
+
+.button-main-info {
+    background-color: $color-green-main;
+    color: $color-white;
+}
+.button-main-info-green{
+    color:$color-white;
+    background: rgba(255, 255, 255, 0.25);
+    border:none;
+}
+.card-white:hover .button-main-info {
+    background-color: $color-white;
+    color: $color-green-main;
+}
+.card-green:hover .button-main-info-green{
+    background-color:$color-white;
+    color:$color-green-main;
+}
+.button-plus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: $color-grey-dark;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.button-plus-span{
+    font-size: 28px;
+    color:$color-green-main;
+}
