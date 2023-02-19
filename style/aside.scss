@@ -15,7 +15,7 @@
             padding-top: 20px;
         }
         &-menu-item{
-            margin-bottom: 25px;
+            padding: 10px;
         }
         &-menu-item-header{
             display: flex;
@@ -23,9 +23,6 @@
             align-items: center;
             padding: 7px;
             cursor: pointer;
-                &:hover{
-                    background-color:$color-grey-hover;
-                }
                 h2{
                  max-width: 222px;
                 }
@@ -33,17 +30,19 @@
                     list-style: none;
                     display: flex;
                     flex-wrap: wrap;
-                        & li{
-                           width:100%;
-                           padding: 15px;
-                           cursor: pointer;
-                                & a{
-                                    padding: 5px;
-                                }
-                                &:hover{
-                                    background-color:$color-grey-hover;
-                                }
-                        }       
+                    &-item{
+                        width: 100%;
+                            padding: 15px;
+                            cursor: pointer;
+                        
+                            & a {
+                                padding: 5px;
+                            }
+                        
+                            &:hover {
+                                background-color: $color-grey-hover;
+                            }
+                    }       
                 }
         }
         &-all-programs{

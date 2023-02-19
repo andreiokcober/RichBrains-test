@@ -38,3 +38,10 @@ a {
 .main {
     max-width: 892px;
 }
+.item-active{
+    color:$color-green-main;
+}
+.svg-active{
+    fill:$color-green-main;
+    transform: rotate(90deg);
+}
