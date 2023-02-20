@@ -49,3 +49,20 @@ function removeItemActive(item,svg,ul){
     ul.classList.add('hide')
 }
         // main.js
+const cards  = document.querySelectorAll('.card')
+
+
+cards.forEach((card => {
+    card.addEventListener('click',()=>{
+        const buttonPlus = card.querySelector('.button-plus-span')
+        if(card.classList.contains('card-active')){
+            buttonPlus.classList.remove('button-plus-active')
+            card.classList.remove('card-active')
+        }else{
+            buttonPlus.classList.add('button-plus-active')
+            card.classList.add('card-active')
+        }
+    })
+}))
+
+

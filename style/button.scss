@@ -35,16 +35,15 @@
     color:$color-green-main;
 }
 .button-plus{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 32px;
-    height: 32px;
-    background-color: $color-grey-dark;
-    border-radius: 100%;
-    cursor: pointer;
+    background-color: $color-grey-dark;  
 }
 .button-plus-span{
     font-size: 28px;
     color:$color-green-main;
+}
+.card-green:hover .button-plus{
+    background-color: $color-grey-plus;
+}
+.card-white:hover .button-plus {
+    background-color: $color-grey-plus;
 }

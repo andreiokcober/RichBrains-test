@@ -341,7 +341,6 @@
           align-items: center;
   width: 32px;
   height: 32px;
-  background-color: #F7F7F7;
   border-radius: 100%;
   cursor: pointer;
 }
@@ -457,25 +456,20 @@
 }
 
 .button-plus {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 32px;
-  height: 32px;
   background-color: #F7F7F7;
-  border-radius: 100%;
-  cursor: pointer;
 }
 
 .button-plus-span {
   font-size: 28px;
   color: #259609;
+}
+
+.card-green:hover .button-plus {
+  background-color: #cbc4c4;
+}
+
+.card-white:hover .button-plus {
+  background-color: #cbc4c4;
 }
 
 .footer {
@@ -555,4 +549,9 @@ a {
   fill: #259609;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
+}
+
+.button-plus-active {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }

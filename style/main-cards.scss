@@ -59,10 +59,11 @@
                     align-items: center;
                     width: 32px;
                     height: 32px;
-                    background-color:$color-grey-dark;
                     border-radius:100%;
                     cursor: pointer;
+    
                 }
+                
         }
         &-duration{
             margin-top: 20px;
@@ -77,4 +78,5 @@
         
 
 }
+
 
