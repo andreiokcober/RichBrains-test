@@ -55,10 +55,23 @@ const cards  = document.querySelectorAll('.card')
 cards.forEach((card => {
     card.addEventListener('click',()=>{
         const buttonPlus = card.querySelector('.button-plus-span')
+        const buttonPlusDiv = card.querySelector('.button-plus')
+        
         if(card.classList.contains('card-active')){
+            if(buttonPlusDiv.classList.contains('button-plus-white')){
+                buttonPlusDiv.style.backgroundColor = '#259609';
+            }
+            else{
+                buttonPlusDiv.style.backgroundColor = '#F7F7F7';
+            }
             buttonPlus.classList.remove('button-plus-active')
             card.classList.remove('card-active')
         }else{
+            if(buttonPlusDiv.classList.contains('button-plus-white')){
+                buttonPlusDiv.style.backgroundColor = '#259609';
+            } else{
+                buttonPlusDiv.style.backgroundColor= '#cbc4c4'
+            }
             buttonPlus.classList.add('button-plus-active')
             card.classList.add('card-active')
         }

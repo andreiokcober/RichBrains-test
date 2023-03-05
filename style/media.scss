@@ -1,0 +1,103 @@
+@media  (max-width: 1185px){
+    .card{
+        width: 330px;
+    }
+    .item-link-svg{
+        margin-left: 5px;
+    }
+}
+@media (max-width: 920px){
+    .cards-container{
+            max-width: 350px;
+        }
+}
+@media (max-width: 640px){
+    .main-conteiner{
+        flex-direction: column;
+        
+    }
+    .aside{
+        align-self: center;
+        width: 330px;
+        margin-top: 0px;
+        margin-right: 0;
+        padding: 0;
+    }
+    .cards-container{
+        max-width: 100%;
+    }
+    .aside-header{
+        display: none;
+    }
+    .aside-header-adaptive{
+        display: flex;
+        background-color:$color-grey-light;
+        padding: 20px 10px;
+        width: 330px;
+        margin-bottom: 15px;
+    }
+    .aside-menu{
+        display:none;
+    }
+    .aside-all-programs{
+        display: none;
+    }
+    .item-svg-adaptive{
+        margin-left: 85px;
+    }
+    body{
+        background-color:$color-white;
+    }
+    .card{
+        border-right: 2px solid $color-grey-light;
+        border-bottom:2px solid $color-grey-light;
+        border-left: 2px solid $color-grey-light;
+    }
+    .footer{
+        display: none;
+    }
+    .card-green{
+        display: none;
+    }
+    .card:last-child{
+        display: none;
+    }
+    .title-5{
+        font-size: 16px;
+        line-height: 22px;
+        width: 100%;
+    }
+    .card-white-description-education,
+    .card-white-description-date{
+        display: none;
+    }
+    .card-white-description{
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .card-white-price{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        line-height: 22px;
+        font-size: 16px;
+        color:$color-black-main;
+        display: block;
+    }
+    .card-white-description-title{
+        display: block;
+    }
+    .button-plus{
+        display: flex;
+        margin-right: 90px;
+        background-color: $color-green-main;
+        &-span{
+            color:$color-white;
+        }
+    }
+    .header-space{
+        justify-content: space-around;
+    }
+    .button-plus-right{
+        margin-right: 0;
+    }
+}

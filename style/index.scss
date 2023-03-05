@@ -4,6 +4,7 @@
 @import './main-cards.scss';
 @import './button.scss';
 @import './footer.scss';
+@import './adaptiveHide.scss';
 * {
     padding: 0;
     margin: 0;
@@ -15,12 +16,14 @@
 a {
     text-decoration: none;
 }
-
+body{
+    background-color: $color-grey-light;
+}
 .wrapper {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 60px 125px;
-    background-color: $color-grey-light;
+    padding: 60px 0px;
+    
 }
 
 .hide {
@@ -33,6 +36,8 @@ a {
 
 .main-conteiner {
     display: flex;
+    max-width: 100%;
+    justify-content: center;
 }
 
 .main {
@@ -48,3 +53,4 @@ a {
 .button-plus-active{
     transform: rotate(45deg);
 }
+@import './media.scss';
